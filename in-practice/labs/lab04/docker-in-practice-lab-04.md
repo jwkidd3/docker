@@ -3,6 +3,7 @@
 Docker In Practice
 ==============================
 
+## This lab must be done from Moby if using Docker Desktop!
 
 ## Lab – Swarm
 
@@ -53,7 +54,7 @@ Now we can initialize a new swarm cluster or join an existing cluster (a single 
 at a time.) Let's initialize a new cluster using our ens33 address:
 
 ```
-user@ubuntu:~$ docker swarm init --advertise-addr=172.16.151.148
+user@ubuntu:~$ docker swarm init 
 
 Swarm initialized: current node (buepgr23z3x9wkmf7jy3fobzi) is now a manager.
 
